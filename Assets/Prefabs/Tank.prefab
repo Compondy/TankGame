@@ -87,7 +87,8 @@ GameObject:
   - component: {fileID: 90811830617414397}
   - component: {fileID: 3918902640207147545}
   - component: {fileID: 7056796169260231808}
-  m_Layer: 0
+  - component: {fileID: -2389959321399995898}
+  m_Layer: 9
   m_Name: Tank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +262,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 64
+  Priority: 200
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -352,6 +353,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rotateSpeed: 1
+--- !u!114 &-2389959321399995898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3215536930277367741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55a49d79303a44ecb6d9bf161532c143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _motorAudioSource: {fileID: 0}
+  _workingAudioClip: {fileID: 0}
+  _engineVolumeInterval: {x: 0.1, y: 0.7}
+  _enginePitchInterval: {x: 0.6, y: 1.5}
+  _maxTankSpeed: 110
 --- !u!1 &3407519512219466769
 GameObject:
   m_ObjectHideFlags: 0

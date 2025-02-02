@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 4478341443263058757}
   - component: {fileID: 4478341443263058756}
   - component: {fileID: 4478341443263058755}
+  - component: {fileID: -654340975794033369}
   m_Layer: 0
   m_Name: Installer
   m_TagString: Untagged
@@ -145,6 +146,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed82f0b1ccf1ff449d54945b1f61b62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-654340975794033369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4478341443263058754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ede0fb515d45f2b4bb0f1921bbf096e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 0}
 --- !u!1 &4478341443630264977
 GameObject:
   m_ObjectHideFlags: 0
